@@ -1,0 +1,32 @@
+# lucas gatsas Theme/Blog - Jekyll Theme
+# the library theme: https://github.com/SpaceG/library
+# Author: QuangAnh
+# Theme: library
+# Source: https://github.com/spaceg/library
+# Mail: anhnq@gmail.com
+
+# Site settings
+title: Blog
+#What is the name of the events or talks you would like to host? (Example Brownbags, Talks, Lighting Talks)
+event_label: Events
+
+description: > # "
+  Quang Anh, is a Web -Developer, Front -End Engineer & UI/UX Designer.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://quanganhh.github.io" # the base hostname & protocol for your site
+
+#These settings might be able to go?
+author: Quang Anh
+twitter_username: QuangAn23500575
+github_username:  quanganhh
+company_name: QA
+
+# Build settings
+markdown: kramdown
+
+#Have to show future posts for future events.
+future: true
+
+permalink: /event/:title.html
+
+theme: jekyll-theme-time-machine
